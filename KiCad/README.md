@@ -27,8 +27,8 @@
 
 
 # B.O.M.
-|Component|Description|
-|--|--|
-|X|x|
-|Y|y|
-|Z|z|
+|Component|Amount|Description|
+|--|--|--|
+|X|0|x|
+|Y|0|y|
+|Z|0|z|
