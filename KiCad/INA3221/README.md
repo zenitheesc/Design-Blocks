@@ -26,10 +26,9 @@ Connect only one solder jumper at a time to set the I2C device address.
 |SCL|1000011|
 
 # B.O.M.
-|Component|Description|
-|--|--|
-|INA3221|Three-channel I2C current monitor|
-|Shunt resistor|2.8 ohm, 1 W 2512 SMD resistor|
-|Resisor|10kohm SMD 0805 resistor|
-|Capacitor|100nF SMD capacitor 0805|
-
+|Component|Amount|Description|
+|--|--|--|
+|INA3221|1|Three-channel I2C current monitor|
+|Shunt resistor|3|2.8 ohm, 1 W 2512 SMD resistor|
+|Resisor|6|10kohm SMD 0805 resistor|
+|Capacitor|1|100nF SMD capacitor 0805|
