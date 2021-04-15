@@ -1,5 +1,5 @@
-<h1 align="center" style="color:white; background-color:black">USPSat-II EPS Modules</h1>
-<h4 align="center">This is the Electrical Power System for the Cubesat USPSat-II</h4>
+<h1 align="center" style="color:white; background-color:black">Design blocks</h1>
+<h4 align="center">These are the circuits developed for the various Zenith projects</h4>
 
 <p align="center">
 	<a href="http://zenith.eesc.usp.br/">
