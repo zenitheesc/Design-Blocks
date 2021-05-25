@@ -1,5 +1,5 @@
 <h1 align="center" style="color:white; background-color:black">Design blocks</h1>
-<h4 align="center">These are the circuits developed for the various Zenith projects</h4>
+<h4 align="center">Collection of circuits and Documentation</h4>
 
 <p align="center">
 	<a href="http://zenith.eesc.usp.br/">
@@ -37,19 +37,26 @@
     <a href="#how-to-contribute">How to contribute?</a> •
 </p>
 
-## Environment and tools
+## Objective
 
-`Add list of dependencies and software needed to run this project (if possible add the versions that were used in development).`
+Unify all circuits designed by the group adding proper documentation.
 
-## Steps to run and debug
+## Environment
 
-`A simple list of steps indicating how one can run and test the project.`
+Our circuits are mainly developed in [KiCad](https://www.kicad.org/).
 
-## How to contribute
+## Adding a Design Block
 
-`(optional, depends on the project) list of simple rules to help people work on the project.`
-
-`Examples: How to format a pull request\n How to format an issue`
+1. Clone this repository
+ 2. Create a folder with the Circuit name
+ 3. Add the appropriate files according to the software used 
+ 4. Add a `README.md` file to the Driver folder 
+    1. On the README add the Author, Date, and purpose of the library
+    2. Add Documentation: Schematic, Layout and B.O.M. 
+    3. Add a notes section for any extra information on circuit usage and performance
+ 5. Add a folder called `Docs`
+    1. Add any External Documentation including Datasheets, Application Notes, and Register Maps
+ 6. If there is a GitHub Issue for the Design Blocks add a message or close it.
 
 ---
 
