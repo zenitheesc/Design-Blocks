@@ -5,11 +5,11 @@ Circuit capable of monitoring voltage and current through three different channe
 
 # Schematic
 
-[Adicionar imagem]
+![INA3221](https://github.com/zenitheesc/Design-Blocks/blob/master/KiCad/INA3221/Esquematico_INA3221.pdf)
 
 # Layout
 
-[Adicionar imagem]
+![INA3221](https://github.com/zenitheesc/Design-Blocks/blob/master/KiCad/INA3221/Layout_INA3221.png)
 
 # Tests
 ## Validation
