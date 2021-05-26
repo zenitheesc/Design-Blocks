@@ -5,25 +5,25 @@
 
 # Schematic
 
-
+[Figure]
 
 # Layout
 
-
+[Figure]
 
 # Tests
 
 ## Simulation
 
-[Apagar caso não tenha]
+[Description]
 
 ## Prototyping
 
-[Apagar caso não tenha]
+[Description]
 
 ## Validation
 
-[Apagar caso não tenha]
+[Description]
 
 
 # B.O.M.
