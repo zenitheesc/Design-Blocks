@@ -1,4 +1,4 @@
-# [Circuit name]
+# Varela COM
 
 Bus developed for the use of different boards with the Varela Acquisition Module.
 
