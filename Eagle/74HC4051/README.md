@@ -5,11 +5,11 @@ The circuit serves as a multiplexer or demultiplexer, having been designed to ac
 
 # Schematic
 
-[74HC4051]
+![74HC4051](https://github.com/MarcusMoraisEpifane/Design-Blocks/blob/master/Eagle/74HC4051/Esquematico_MUX_DEMUX.png)
 
 # Layout
 
-[74HC4051]
+![74HC4051](https://github.com/MarcusMoraisEpifane/Design-Blocks/blob/master/Eagle/74HC4051/Layout_MUX_DEMUX.png)
 
 # Tests
 
