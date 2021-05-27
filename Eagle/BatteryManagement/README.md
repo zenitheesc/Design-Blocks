@@ -4,11 +4,13 @@ Design block whose function is to isolate the battery from the rest of the circu
 
 # Schematic
 
-[Figure]
+![Charger](https://github.com/MarcusMoraisEpifane/Design-Blocks/blob/master/Eagle/BatteryManagement/Esquematico_Carregador.png)
+
+![Protection](https://github.com/MarcusMoraisEpifane/Design-Blocks/blob/master/Eagle/BatteryManagement/Esquematico_Prote%C3%A7%C3%A3o.png)
 
 # Layout
 
-[Figure]
+![Battery Management](https://github.com/MarcusMoraisEpifane/Design-Blocks/blob/master/Eagle/BatteryManagement/Layout_Prote%C3%A7%C3%A3o.png)
 
 # Tests
 
