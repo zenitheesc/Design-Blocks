@@ -8,7 +8,7 @@ Circuit for monitoring the state of charge of a lithium ion cell (18650), develo
 
 # Layout
 
-![Max17205]()
+![Max17205](https://github.com/MarcusMoraisEpifane/Design-Blocks/blob/master/KiCad/MAX17205/Layout_MAX17205.png)
 
 ## Validation
 
