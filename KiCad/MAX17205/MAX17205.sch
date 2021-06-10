@@ -31,19 +31,19 @@ F 9 "MAX17205G+T" H 6850 3200 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:CFN0402-FX-R010ELF R5
+L SamacSys_Parts:CFN0402-FX-R010ELF R6
 U 1 1 60C12D9D
 P 4600 4100
-F 0 "R5" V 4904 4188 50  0000 L CNN
+F 0 "R6" V 4904 4188 50  0000 L CNN
 F 1 "10m" V 4995 4188 50  0000 L CNN
-F 2 "RESC1106X55N" H 5150 4150 50  0001 L CNN
-F 3 "https://g.componentsearchengine.com/Datasheets/0/13902103.pdf" H 5150 4050 50  0001 L CNN
-F 4 "CFN Series Metal Foil, Current Sense Resistor" H 5150 3950 50  0001 L CNN "Description"
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5150 4150 50  0001 L CNN
+F 3 "https://br.mouser.com/ProductDetail/KOA-Speer/TLR2ATTD10L0F?qs=4hXxRbBfDXaoJFwtAONbSg%3D%3D" H 5150 4050 50  0001 L CNN
+F 4 "Current Sense Resistors - SMD Metal Plate ChipType 10mOhm 1 Watt 1%" H 5150 3950 50  0001 L CNN "Description"
 F 5 "0.55" H 5150 3850 50  0001 L CNN "Height"
-F 6 "652-CFN0402-FX-R010E" H 5150 3750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Bourns/CFN0402-FX-R010ELF?qs=iLbezkQI%252Bsjx0oxCU2UO7g%3D%3D" H 5150 3650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Bourns" H 5150 3550 50  0001 L CNN "Manufacturer_Name"
-F 9 "CFN0402-FX-R010ELF" H 5150 3450 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "660-TLR2ATTD10L0F" H 5150 3750 50  0001 L CNN "Mouser Part Number"
+F 7 "0,63/17442" H 5150 3650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "KOA Speer" H 5150 3550 50  0001 L CNN "Manufacturer_Name"
+F 9 "TLR2ATTD10L0F" H 5150 3450 50  0001 L CNN "Manufacturer_Part_Number"
 	1    4600 4100
 	0    1    1    0   
 $EndComp
@@ -164,10 +164,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 4000 3250 4900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 60C1E653
 P 6300 5000
-F 0 "#PWR?" H 6300 4750 50  0001 C CNN
+F 0 "#PWR0101" H 6300 4750 50  0001 C CNN
 F 1 "GND" H 6305 4827 50  0000 C CNN
 F 2 "" H 6300 5000 50  0001 C CNN
 F 3 "" H 6300 5000 50  0001 C CNN
@@ -234,10 +234,10 @@ Wire Wire Line
 Wire Wire Line
 	8100 4400 8100 3700
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0102
 U 1 1 60C29D72
 P 7800 3200
-F 0 "#PWR?" H 7800 3050 50  0001 C CNN
+F 0 "#PWR0102" H 7800 3050 50  0001 C CNN
 F 1 "+3V3" H 7815 3373 50  0000 C CNN
 F 2 "" H 7800 3200 50  0001 C CNN
 F 3 "" H 7800 3200 50  0001 C CNN
@@ -271,10 +271,10 @@ Wire Wire Line
 Wire Wire Line
 	7200 3300 6750 3300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 60C323CF
 P 6850 3350
-F 0 "#PWR?" H 6850 3100 50  0001 C CNN
+F 0 "#PWR0103" H 6850 3100 50  0001 C CNN
 F 1 "GND" H 6855 3177 50  0000 C CNN
 F 2 "" H 6850 3350 50  0001 C CNN
 F 3 "" H 6850 3350 50  0001 C CNN
@@ -339,10 +339,10 @@ Wire Wire Line
 Wire Wire Line
 	7200 3300 7450 3300
 $Comp
-L Logozenithesquematico:LOGO #G?
+L Logozenithesquematico:LOGO #G1
 U 1 1 60C4F083
 P 10450 6850
-F 0 "#G?" H 10450 6214 60  0001 C CNN
+F 0 "#G1" H 10450 6214 60  0001 C CNN
 F 1 "LOGO" H 10450 7486 60  0001 C CNN
 F 2 "" H 10450 6850 50  0001 C CNN
 F 3 "" H 10450 6850 50  0001 C CNN
