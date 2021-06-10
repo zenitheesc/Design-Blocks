@@ -1,6 +1,6 @@
 # Max17205
 
-Circuito para monitoramento do estado de carga de uma celula de ions de litio (18650), desenvolvido para ser utilizado na ground station mobile "Alcântara".
+Circuit for monitoring the state of charge of a lithium ion cell (18650), developed to be used in the ground station mobile "Alcântara".
 
 # Schematic
 
@@ -8,12 +8,18 @@ Circuito para monitoramento do estado de carga de uma celula de ions de litio (1
 
 ## Validation
 
-Circuito aguardando a manufatura.
+Circuit awaiting manufacture.
 
 
 # B.O.M.
 |Component|Amount|Description|
 |--|--|--|
-|X|0|x|
-|Y|0|y|
-|Z|0|z|
+|MAX17205G+T|1|S.O.C. Monitor|
+|PicoBlade|1|PCB Header, 2 Circuits|
+|Holder|1|18650 Holder|
+|Shunt Resistor|1|10 mohm, 1 W 0805 SMD|
+|Resistor|1|10 ohm SMD 0805|
+|Resistor|1|10 kohm SMD 0805|
+|Resistor|3|4.7 kohm SMD 0805|
+|Capacitor|1|100 pF SMD 0805|
+|Capacitor|1|470 pF SMD 0805|
