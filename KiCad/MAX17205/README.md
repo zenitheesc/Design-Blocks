@@ -15,7 +15,7 @@ Circuit awaiting manufacture.
 |Component|Amount|Description|
 |--|--|--|
 |MAX17205G+T|1|S.O.C. Monitor|
-|PicoBlade|1|PCB Header, 2 Circuits|
+|Thermistor|1|NTC 10 kohm SMD 0402|
 |Holder|1|18650 Holder|
 |Shunt Resistor|1|10 mohm, 1 W 0805 SMD|
 |Resistor|1|10 ohm SMD 0805|
