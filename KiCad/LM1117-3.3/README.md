@@ -1,6 +1,6 @@
 # LM1117-3.3
 
-Linear regulator from 3.6V to 3.3V (current of 0.8A), developed to be used in Ground Station Mobile "Alcântara".
+Linear regulator from 5V to 3.3V (current of 0.8A), developed to be used in Ground Station Mobile "Alcântara".
 
 
 # Schematic
