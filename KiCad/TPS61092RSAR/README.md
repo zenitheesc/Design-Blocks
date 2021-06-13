@@ -1,6 +1,6 @@
 # TPS61092RSAR
 
-DC-DC Step-Up Converter from 3.6V to 5V (1A Current), developed to be used in the Ground Station Mobile "Alcântara".
+DC-DC Step-Up Converter from 3.6V to 5V (2A Current), developed to be used in the Ground Station Mobile "Alcântara".
 
 
 # Schematic

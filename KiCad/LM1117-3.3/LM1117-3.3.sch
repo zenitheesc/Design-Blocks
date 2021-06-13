@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "LM1117-3.3"
-Date "2021-06-12"
-Rev "1"
+Date "2021-06-13"
+Rev "2"
 Comp "Zenith Aerospace"
 Comment1 "Regulador Linear de 3,3V"
 Comment2 ""
@@ -110,11 +110,11 @@ F 9 "T489A106K010ATA2K2" H 7100 3350 50  0001 L CNN "Manufacturer_Part_Number"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5350 3800 5250 3800
+	5350 3800 5150 3800
 Wire Wire Line
-	5250 3800 5250 3500
+	5150 3800 5150 3500
 Wire Wire Line
-	5250 3500 6750 3500
+	5150 3500 6750 3500
 Wire Wire Line
 	6750 3500 6750 3700
 Connection ~ 6750 3700
@@ -130,11 +130,20 @@ Wire Wire Line
 Wire Wire Line
 	5250 4700 5250 4600
 Wire Wire Line
-	5250 3900 4950 3900
-Connection ~ 5250 3900
-Wire Wire Line
 	6750 3400 6750 3500
 Connection ~ 6750 3500
-Text HLabel 4950 3900 0    50   Input ~ 0
-Pack
+$Comp
+L power:+5V #PWR?
+U 1 1 60C671E5
+P 5250 3400
+F 0 "#PWR?" H 5250 3250 50  0001 C CNN
+F 1 "+5V" H 5265 3573 50  0000 C CNN
+F 2 "" H 5250 3400 50  0001 C CNN
+F 3 "" H 5250 3400 50  0001 C CNN
+	1    5250 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3400 5250 3900
+Connection ~ 5250 3900
 $EndSCHEMATC

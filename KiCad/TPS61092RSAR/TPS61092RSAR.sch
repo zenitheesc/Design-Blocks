@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Conversor DC-DC Step-Up "
-Date "2021-06-11"
-Rev "1"
+Date "2021-06-13"
+Rev "2"
 Comp "Zenith Aerospace"
 Comment1 "Converte a tensão de uma celula de litio para 5V"
-Comment2 "Capacidade de corrente: 1A"
+Comment2 "Capacidade de corrente: 2A"
 Comment3 ""
 Comment4 "Autor: João Marcus Epifanio Morais de Assunção"
 $EndDescr
@@ -254,23 +254,6 @@ F 3 "" H 10450 6850 50  0001 C CNN
 	1    10450 6850
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:LQH44PH6R8MPRL L1
-U 1 1 60C432BC
-P 5700 4500
-F 0 "L1" V 6146 4456 50  0000 R CNN
-F 1 "6.8u" V 6055 4456 50  0000 R CNN
-F 2 "LQH44PH100MPRL" H 6350 4550 50  0001 L CNN
-F 3 "https://psearch.en.murata.com/inductor/product/LQH44PH6R8MPR%23.html" H 6350 4450 50  0001 L CNN
-F 4 "LQH44PH_PR Series Inductor 6.8uH +/-20% 1515 (4040)" H 6350 4350 50  0001 L CNN "Description"
-F 5 "1.8" H 6350 4250 50  0001 L CNN "Height"
-F 6 "81-LQH44PH6R8MPRL" H 6350 4150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQH44PH6R8MPRL?qs=rkhjVJ6%2F3EIXGQ0JdrVHgQ%3D%3D" H 6350 4050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Murata Electronics" H 6350 3950 50  0001 L CNN "Manufacturer_Name"
-F 9 "LQH44PH6R8MPRL" H 6350 3850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5700 4500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6200 2500 6200 2300
 Wire Wire Line
@@ -289,4 +272,21 @@ Wire Wire Line
 Connection ~ 4700 3300
 Wire Wire Line
 	4300 4600 5700 4600
+$Comp
+L SamacSys_Parts:TYA40206R8M-10 L1
+U 1 1 60C67FC5
+P 5700 4500
+F 0 "L1" V 6146 4456 50  0000 R CNN
+F 1 "6.8u" V 6055 4456 50  0000 R CNN
+F 2 "INDPM4040X210N" H 6350 4550 50  0001 L CNN
+F 3 "https://www.mouser.in/datasheet/2/987/Laird_Performance_TYA4020_series__Rev_A_-1877538.pdf" H 6350 4450 50  0001 L CNN
+F 4 "PWRIND,SMT,SHLD,IRATED,4.00X4.00" H 6350 4350 50  0001 L CNN "Description"
+F 5 "2.1" H 6350 4250 50  0001 L CNN "Height"
+F 6 "739-TYA40206R8M-10" H 6350 4150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Laird-Performance-Materials/TYA40206R8M-10?qs=sPbYRqrBIVmid25D4%2FyRGQ%3D%3D" H 6350 4050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Laird Performance Materials" H 6350 3950 50  0001 L CNN "Manufacturer_Name"
+F 9 "TYA40206R8M-10" H 6350 3850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5700 4500
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
