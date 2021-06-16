@@ -32,9 +32,9 @@
 </p>
 
 <p align="center">
-    <a href="#environment-and-tools">Environment and Tools</a> •
-    <a href="#steps-to-run-and-debug">Steps to run and debug</a> •
-    <a href="#how-to-contribute">How to contribute?</a> •
+    <a href="#Objective">Objective</a> •
+    <a href="#Enviroment">Enviroment</a> •
+    <a href="#Adding-a-Design-Block">Adding a Design Block</a> •
 </p>
 
 ## Objective
