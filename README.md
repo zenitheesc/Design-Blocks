@@ -34,7 +34,7 @@
 <p align="center">
     <a href="#Objective">Objective</a> •
     <a href="#Enviroment">Enviroment</a> •
-    <a href="#Adding-a-Design-Block">Adding a Design Block</a> •
+    <a href="#Adding-a-Design-Block">Adding a Design Block</a>
 </p>
 
 ## Objective
